@@ -1,0 +1,512 @@
+@keyframes titleanim{
+	from{color: black;}
+	to{color: orange;}
+	from{text-shadow: 0px 0px 0px white;}
+	to{text-shadow: 2px 4px 16px red;}
+}
+@keyframes jumbotronanim{
+	from{background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=);
+		background-position: bottom;}
+	to{background-image: url(http://hdqwalls.com/wallpapers/overwatch-4k.jpg);
+	background-position: top;}
+}
+.col-lg-12{
+	height: 100px;
+}
+#paragraph{
+	color: white;
+	font-size: 1vw;
+	background-color: cornflowerblue;
+	width: 40%;
+}
+#Title{
+	font-family: 'Poppins';
+	font-size: 8vw;
+	text-align: center;
+	color: orange;
+	text-shadow: 2px 4px 16px red;
+	animation-name: titleanim;
+	animation-duration: 5s;	
+	letter-spacing: 0.3em;
+}
+
+#overjumbo:hover{
+	transform: scale(1.1);
+	transition: 1.3s;
+}
+#overjumbo{
+	animation-name: jumbotronanim;
+	animation-duration: 10s;
+	background-image: url(http://hdqwalls.com/wallpapers/overwatch-4k.jpg);
+	background-size: cover;	
+	background-position: top;	
+	border: 5px solid lightgreen;
+	position: relative;
+}
+.name{
+	font-family: Italiana;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 62px;
+	margin-right: 62px;
+	background-color: #3dffdb;
+	margin-top: 20px;
+	font-weight: bold;	
+}
+@keyframes example{
+	from{color: red;}
+	to{color: yellow;}
+}
+.info{
+	font-size: 20px;
+	text-align: center;
+	font-family: Overlock;
+	margin-left: 40px;
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+}
+.col-lg-2{
+	border: 10px solid blue;
+	background-color: white;
+	margin-left: 5%;
+	width: auto;
+	height: 450px;
+	margin-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    margin-right: 10px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    font-size: 8px;
+}
+#mycolumn{
+	padding-right: 0px;
+	letter-spacing: 0.1em;
+}
+.col-lg-2:hover{
+	transform: scale(1.09);
+	transition: 1.1s;
+	box-shadow: 0px 0px 50px cornflowerblue;
+	animation-name: example;
+	animation-duration: 2s;
+	animation-direction: reverse;
+	cursor:pointer;
+}
+@keyframes textanim{
+	from{color: white;}
+	to{color: black;}
+}
+@keyframes underline{
+	from{border-bottom: }
+	to{	text-decoration: underline;}
+}
+.col-lg-2:hover .info{
+	animation-name: textanim;
+	animation-duration: 2s;	
+}
+body{
+	margin-top: 20px;
+	background-image: url(https://images6.alphacoders.com/717/thumb-1920-717752.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+.col-lg-2:hover{
+	border: 5px solid yellow;
+}
+#name-to-underline {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+#name-to-underline:hover {
+  color: #000;
+}
+#name-to-underline:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: blac;k
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+}
+.col-lg-2:hover #name-to-underline:before{
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.col-lg-2 .col-es-12 .col-md-5 .col-sm-5 .specific{
+	margin-right: 0px;
+	margin-left: 35px;
+}
+.row{
+	opacity: 0;
+}
+#genji:hover .name,#mccree:hover .name, #pharah:hover .name, #reaper:hover .name, #soldier:hover .name, #sombra:hover .name, #tracer:hover .name, #bastion:hover .name,
+#hanzo:hover .name, #junkrat:hover .name,#mei:hover .name, #torbjorn:hover .name, #widowmaker:hover .name, #dva:hover .name, #orisa:hover .name, #reinhardt:hover .name,
+#roadhog:hover .name, #winston:hover .name, #zarya:hover .name, #ana:hover .name, #lucio:hover .name, #mercy:hover .name, #symmetra:hover .name, #zenyatta:hover .name
+{
+    text-shadow: 0px 4px 3px yellow,
+    			 0px 8px 13px orange,
+    			 0px 18px 18px red;
+}
+#genji:hover .row,#mccree:hover .row, #pharah:hover .row, #reaper:hover .row, #soldier:hover .row, #sombra:hover .row, #tracer:hover .row, #bastion:hover .row, 
+#hanzo:hover .row, #junkrat:hover .row,#mei:hover .row, #torbjorn:hover .row, #widowmaker:hover .row, #dva:hover .row, #orisa:hover .row, #reinhardt:hover .row,
+#roadhog:hover .row, #winston:hover .row, #zarya:hover .row, #ana:hover .row, #lucio:hover .row, #mercy:hover .row, #symmetra:hover .row, #zenyatta:hover .row
+{
+	opacity: 1;
+}
+#genji:hover . 	row,#mccree:hover . 	row, #pharah:hover .row, #reaper:hover .row, #soldier:hover .row, #sombra:hover .row, #tracer:hover .row, #bastion:hover .row, 
+#hanzo:hover . 	row, #junkrat:hover . 	row,#mei:hover .row, #torbjorn:hover .row, #widowmaker:hover .row, #dva:hover .row, #orisa:hover .row, #reinhardt:hover .row,
+#roadhog:hover . 	row, #winston:hover . 	row, #zarya:hover .row, #ana:hover .row, #lucio:hover .row, #mercy:hover .row, #symmetra:hover .row, #zenyatta:hover .row
+{
+	animation-name: example;
+	animation-duration: 2.5s;
+}
+img{
+	background-color: black;
+	border-radius: 10%;
+	margin: 10px;
+	margin-top: 20px;
+}
+.offensepic{
+	height: 75px;
+	width: 75px;
+	margin: 0px;
+    position: absolute;
+    top: -60px;
+}
+.defensepic{
+	background-color: black;
+	height: 75px;
+	width: 75px;
+    position: absolute;
+    top: -80px;
+}
+
+.pictures{
+	position: absolute; 
+	bottom: 0;
+	padding: 0;
+}
+#genji {
+	background-image: url(https://www.newsledge.com/wp-content/uploads/2016/05/genji-overwatch-ultimate.jpg);
+}
+#genji:active{
+	background-image: url(http://vignette3.wikia.nocookie.net/overwatch/images/7/71/Genji_warriorssalute.gif/revision/latest?cb=20160729083148);
+	background-position: center;
+}
+#genji:active .row{
+	opacity: 0;
+}
+#mccree {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/92/1a/bc/921abc7107d13521347616ab5106d009.jpg);
+}
+#mccree:active{
+	background-image: url(http://vignette2.wikia.nocookie.net/overwatch/images/e/ef/McCree_rollingintoaction.gif/revision/latest?cb=20160730130636);
+	background-position: center;
+}
+
+#mccree:active .row{
+	opacity: 0;
+}
+#pharah{
+	background-image: url(http://gameranx.com/wp-content/uploads/2016/05/Overwatch2-Pharah.jpg);
+}
+#pharah:active{
+	background-image: url(https://vignette4.wikia.nocookie.net/overwatch/images/8/87/Pharah_barrage.gif/revision/latest?cb=20160824121725 	);
+	background-position: center;
+}
+#pharah:active .row{
+	opacity: 0;
+}
+
+#reaper{
+	background-image: url(https://images2.alphacoders.com/556/thumb-1920-556075.png);
+}
+#reaper:active{
+	background-image: url(http://vignette4.wikia.nocookie.net/overwatch/images/5/57/Reaper_executioner.gif/revision/latest?cb=20160729053135);
+	background-position: center;
+}
+#reaper:active .row{
+	opacity: 0;
+}
+#soldier{
+	background-image: url(http://static1.squarespace.com/static/55bfe05be4b04593ea0a8619/55bfe4d1e4b024943a971f3a/55df04e4e4b04e9d10653c55/1440685188052/?format=1000w);
+}
+#soldier:active{
+	background-image: url(https://vignette2.wikia.nocookie.net/overwatch/images/2/29/Soldier76_helix.gif/revision/latest?cb=20160825122808);
+	background-position: 35%;
+}
+#soldier:active .row{
+	opacity: 0;
+}
+#sombra{
+	background-image: url(https://i.ytimg.com/vi/JIzaBweWApg/hqdefault.jpg);
+}
+#sombra:active{
+	background-image: url(http://vignette3.wikia.nocookie.net/overwatch/images/2/20/Sombra_pulse.gif/revision/latest?cb=20161109135255);
+	background-position: 65%;
+}
+#sombra:active .row{
+	opacity: 0;
+}
+
+#tracer{
+	background-image: url(https://images5.alphacoders.com/686/686328.jpg);
+}
+#tracer:active{
+	background-image: url(https://vignette4.wikia.nocookie.net/overwatch/images/3/33/Tracer_backflip.gif/revision/latest?cb=20160824125124);
+	background-position: 45% 20%;
+}
+#tracer:active .row{
+	opacity: 0;
+}
+
+#bastion{
+	background-image: url(https://i.ytimg.com/vi/tcp9WL-BakE/maxresdefault.jpg);
+}
+#bastion:active{
+	background-image: url(https://vignette2.wikia.nocookie.net/overwatch/images/9/9c/Bastion_highlight_heroic.gif/revision/latest?cb=20160824061832);
+	background-position: 65% 20%;
+}
+#bastion:active .row{
+	opacity: 0;
+}
+#hanzo{
+	background-image: url(https://images3.alphacoders.com/706/thumb-1920-706072.jpg);
+}
+#hanzo:active{
+	background-image: url(https://vignette2.wikia.nocookie.net/overwatch/images/d/d4/Hanzo_backflip.gif/revision/latest?cb=20160729064540);
+	background-position: 45% 20%;
+}
+#hanzo:active .row{
+	opacity: 0;
+}
+
+#junkrat{
+	background-image: url(https://i.ytimg.com/vi/DcumhyuxC04/maxresdefault.jpg);
+}
+#junkrat:active{
+	background-image: url(https://static.comicvine.com/uploads/square_medium/13/139094/5460070-tumblr_o2f9mu8lza1qag6c4o2_400.gif);
+	background-position: 95% 20%;
+}
+#junkrat:active .row{
+	opacity: 0;
+}
+#mei{
+	background-image: url(https://pbs.twimg.com/media/CbZWjcTW0AARG6X.jpg);
+}
+#mei:active{
+	background-image: url(http://i0.kym-cdn.com/photos/images/newsfeed/001/119/403/d9d.gif);
+	background-position: 55% 20%;
+}
+#mei:active .row{
+	opacity: 0;
+}
+
+#torbjorn{
+	background-image: url(http://orig02.deviantart.net/e584/f/2016/138/8/b/torbjorn_by_scebiqu-da2xolf.jpg);
+}
+#torbjorn:active{
+	background-image: url(http://vignette4.wikia.nocookie.net/overwatch/images/3/3b/Torbj%C3%B6rn_inyourface.gif/revision/latest?cb=20160824073120);
+	background-position: 45% 20%;
+}
+#torbjorn:active .row{
+	opacity: 0;
+}
+#widowmaker{
+	background-image: url(https://i.ytimg.com/vi/TEv_MuyvAxM/maxresdefault.jpg);;
+}
+#widowmaker:active{
+	background-image: url(https://am21.akamaized.net/tms/cnt/uploads/2016/12/widowmaker-miseltoe.gif);
+	background-position: 55% 20%;
+}
+#widowmaker:active .row{
+	opacity: 0;
+}
+
+#dva{
+	background-image: url(http://68.media.tumblr.com/a7cd8ccc44d89b4e587d73816335903e/tumblr_o2aynsQ3jS1ra5hw6o3_1280.jpg);
+}
+#dva:active{
+	background-image: url(https://i.kinja-img.com/gawker-media/image/upload/t_original/lttht525k9zf42vwh66v.gif);
+	background-position: 40% 20%;
+}
+#dva:active .row{
+	opacity: 0;
+}
+#orisa{
+	background-image: url(http://assets1.ignimgs.com/thumbs/userUploaded/2017/3/2/orisathumb-1488482139469.jpg);
+}
+#orisa:active{
+	background-image: url(http://i.imgur.com/2qrB9tf.gif);
+	background-position: 85% 20%;
+}
+#orisa:active .row{
+	opacity: 0;
+}
+#reinhardt{
+	background-image: url(http://orig09.deviantart.net/cd0e/f/2015/135/8/3/overwatch___reinhardt_wallpaper_by_mikoyanx-d8tj0ad.png);
+}
+#reinhardt:active{
+	background-image: url(http://vignette4.wikia.nocookie.net/overwatch/images/5/58/Reinhardt_hammerdown.gif/revision/latest?cb=20160824050917);
+	background-position: 65% 20%;
+}
+#reinhardt:active .row{
+	opacity: 0;
+}
+#roadhog{
+	background-image: url(http://8gmwp015fo-flywheel.netdna-ssl.com/wp-content/uploads/sites/10/2015/09/Roadhog1.jpg);
+}
+#roadhog:active{
+	background-image: url(http://vignette2.wikia.nocookie.net/overwatch/images/b/b5/Roadhog_saycheese.gif/revision/latest?cb=20160830220613);
+	background-position: 65% 20%;
+}
+#roadhog:active .row{
+	opacity: 0;
+}
+#winston{
+	background-image: url(https://imgmr.com/wp-content/uploads/2016/06/Winston-art.jpg);
+}
+#winston:active{
+	background-image: url(https://vignette3.wikia.nocookie.net/overwatch/images/0/0d/Winston_primalrage.gif/revision/latest?cb=20160728222912);
+	background-position: 65% 20%;
+}
+#winston:active .row{
+	opacity: 0;
+}
+#zarya{
+	background-image: url(https://i.ytimg.com/vi/SG93apdTQ7o/maxresdefault.jpg);
+}
+#zarya:active{
+	background-image: url(http://vignette1.wikia.nocookie.net/overwatch/images/0/0a/Zarya_thisisstrength.gif/revision/latest?cb=20160728072609);
+	background-position: 65% 20%;
+}
+#zarya:active .row{
+	opacity: 0;
+}
+#ana{
+	background-image: url(https://assets.vg247.com/current//2016/07/overwatch_ana_3-600x375.jpg);
+}
+#ana:active{ 
+	background-image: url(https://vignette2.wikia.nocookie.net/overwatch/images/e/e1/Ana_guardian.gif/revision/latest?cb=20160730143707);
+	background-position: 55% 20%;
+}
+#ana:active .row{
+	opacity: 0;
+}
+#lucio{
+	background-image: url(https://i.ytimg.com/vi/-j6vpuRfdfU/maxresdefault.jpg);
+}
+#lucio:active{
+	background-image: url(https://vignette2.wikia.nocookie.net/overwatch/images/6/6a/L%C3%BAcio_highlight_inthegroove.gif/revision/latest?cb=20160826140851);
+	background-position: 35% 20%;
+}
+#lucio:active .row{
+	opacity: 0;
+}
+#mercy{
+	background-image: url(https://s3-us-west-1.amazonaws.com/shacknews/assets/article/2017/02/08/mercy-theatrical-standard_1200x500.jpg);
+}
+#mercy:active{
+	background-image: url(http://pa1.narvii.com/6148/aeca3b78d2fd51a1cc2e43e06665891f4166245d_hq.gif);
+	background-position: 35% 20%;
+}
+#mercy:active .row{
+	opacity: 0;
+}
+#symmetra{
+	background-image: url(http://images2.itechpost.com/data/images/full/28640/overwatch-all-symmetra-highlight-intros.png);
+}
+#symmetra:active{
+	background-image: url(http://vignette3.wikia.nocookie.net/overwatch/images/e/ef/Symmetra_-_Snowflake.gif);
+	background-position: 35% 20%;
+}
+#symmetra:active .row{
+	opacity: 0;
+}
+#zenyatta{
+	background-image: url(https://vignette3.wikia.nocookie.net/overwatch/images/8/89/Zenyatta_Overwatch_008.jpg/revision/latest?cb=20141108205627);
+}
+#zenyatta:active{
+	background-image: url(https://68.media.tumblr.com/73901cbdb18e95d3200be49221aff06a/tumblr_o9hs47DHBl1tg90d6o1_500.gif);
+	background-position: 35% 20%;
+}
+#zenyatta:active .row{
+	opacity: 0;
+}
+.name{
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+.col-lg-2 img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	margin-right: 10px;
+	margin-left: 0px;
+}
+#orisa, #dva, #widowmaker, #torbjorn, #mei, #junkrat, #hanzo, #bastion, #tracer, #sombra, #soldier, #genji, #pharah, #reinhardt,#roadhog, #winston, #zarya,
+#ana, #lucio, #mercy, #symmetra, #zenyatta, #reaper, #mccree
+{
+	background-size: cover;
+	background-position: center;
+}
+@keyframes shrink{
+	from{width: 1000px;
+		height: 1000px;
+		margin: 190px;
+		transform: rotate(25deg);}
+	to{width: 307px;
+		height: 450px;
+		margin-left: 100px;
+		transform: rotate(360deg);}
+}
+@keyframes movearound{
+	from{transform: skew(10deg, 20deg);}
+	to{	transform: translate(0px);}
+}
+
+#orisa, #dva, #widowmaker, #torbjorn, #mei, #junkrat, #hanzo, #bastion, #tracer, #sombra, #reaper, #mccree, #soldier, #genji, #pharah, #reinhardt,#roadhog, #winston, #zarya,
+#ana, #lucio, #mercy, #symmetra, #zenyatta
+{
+/*	animation-name: shrink;
+	animation-duration: 5s;*/
+	animation-name: movearound;
+	animation-duration: .5s;
+}
+#genjiinfo, #pharahinfo, #soldierinfo, #reaperinfo, #sombrainfo, #tracerinfo, #hanzoinfo, #junkratinfo, #meiinfo, #torbjorninfo, #widowmakerinfo, #dvainfo, 
+#orisainfo, #mccreeinfo, #bastioninfo, #hanzoinfo, #reinhardtinfo, #roadhoginfo, #anainfo, #lucioinfo, #mercyinfo, #symmetrainfo, #zenyattainfo
+{
+	color: black;
+	font-size: 17px;
+	background-color: cornflowerblue;
+}
+#zaryainfo{
+	font-size: 16px;
+	background-color: cornflowerblue;
+}
+audio{
+	width: 200px;
+	height: 20px;
+	background-color: orange;
+	position: absolute;
+	left: 135px;
+	top: -30px;
+}
+#wholepage{
+	width: 100%;
+	float: left;
+}
+#space{
+	padding: 100px;
+}

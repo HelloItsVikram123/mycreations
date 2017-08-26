@@ -1,0 +1,23 @@
+ol{
+	font-family: Quicksand;
+	font-size: 20px;
+
+}
+#lessonsbody{
+	background-image: url(https://source.unsplash.com/1_CMoFsPfso);
+	background-size: cover;
+	background-position: center;
+}
+li a{
+	color: white;
+	text-decoration: underline;
+}
+li a:hover{
+	text-decoration: none;
+	color: green;
+}
+#lessonsjumbo{
+	background-image: url(https://source.unsplash.com/3kzlCL3rj8A);
+	background-size: cover;
+	color: white;
+}

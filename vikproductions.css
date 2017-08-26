@@ -1,0 +1,77 @@
+.navbar-brand{
+	font-family: Quicksand;
+	color: black;
+}
+.collapse .navbar-collapse{
+	font-family: Quicksand;
+	color: black; 
+}
+.navbar-inverse{
+	background-color: #a742f4;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-family: Quicksand;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	font-family: Quicksand;
+}
+body{
+	font-family: Quicksand;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.website{
+	text-align: center;
+}
+#link{
+	color: black;
+	font-weight: 100px;
+	font-family: Josefin Sans;
+	font-size: 20px;
+	width: 260px;
+	margin-left: 35px;
+	margin-top: 10px;
+	background-color: orange;
+
+}
+#box:hover{
+	transform: scale(1.1);
+	transition: 1.1s;
+}
+#box:hover #link{
+	border: 5px solid cornflowerblue;
+}
+@keyframes homeanim{
+	from{background-image: url(http://source.unsplash.com/uoVh6xLSRQ0);
+		background-position: center;}
+	to{background-image: url(http://source.unsplash.com/wtrAchtpc-w);
+		background-position: top;}
+}
+#homepage{
+	background-image: url(http://source.unsplash.com/wtrAchtpc-w);
+	background-position: top;
+	background-size: cover;
+	animation-name: homeanim;
+	animation-duration: 3s;
+}
+@keyframes colorchange{
+	from{ color: white;}
+	to{ color: black; }
+}
+#homepagebody{
+	background-image: url(https://source.unsplash.com/n7n-nkadHRM);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	animation-name: colorchange;
+	animation-duration: 3s;
+	color: black;
+}
+#pagenavbar{
+	background-color: #a742f4;
+}
+

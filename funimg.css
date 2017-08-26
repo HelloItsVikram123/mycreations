@@ -1,0 +1,27 @@
+.jumbotron{
+	font-family: Poppins;
+}
+p{
+	font-family: Raleway;
+}
+body{
+	padding: 70px;
+}
+.navbar-brand{
+	font-family: Quicksand;
+	color: black;
+}
+.collapse .navbar-collapse{
+	font-family: Quicksand;
+	color: black; 
+}
+.navbar-inverse{
+	background-color: #a742f4;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-family: Quicksand;
+}
